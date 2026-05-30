@@ -32,5 +32,5 @@ This project is perfect for beginners who want to learn how JavaScript interacts
 
 Try the project here:
 
-https://006shido.github.io/colorchange/
+https://006shido.github.io/colorchangehtml/
 

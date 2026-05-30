@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Color Change</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            margin-top: 100px;
+            background-color: lightblue;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Change Background Color</h1>
+    <button onclick="changeColor()">Click Me</button>
+
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = "lightgreen";
+        }
+    </script>
+
+</body>
+</html>
